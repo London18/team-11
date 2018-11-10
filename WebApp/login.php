@@ -16,7 +16,7 @@
 				</br>
 				Password: <input type="password" name="password" placeholder="Password" class="mb-2">
 				</br>
-				<input type="submit">
+				<input type="submit" class="btn btn-primary">
 			</form>
 			
 			<?php 
