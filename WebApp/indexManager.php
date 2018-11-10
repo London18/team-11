@@ -29,18 +29,15 @@
 				<thead>
 					<tr>
 						<th scope="col">Name</th>
-						<th scope="col">Start</th>
-						<th scope="col">End</th>
-						<th scope="col">Location</th>
-						<th scope="col">Notes</th>
 						<th scope="col">Status</th>
+						<th scope="col">Contact</th>
 					</tr>
 				</thead>
 				<tbody>
 					<tr>
-						<td>get</td>
-						<td>9am</td>
-						<td>10am</td>
+						<td>Sally Dango</td>
+						<td>Going to sit</td>
+						<td><a href="tel:07482603961">Phone</a> or <a href="mailto:sallydango@email.net">E-Mail</a></td>
 						<td>53 Bank Lane, PO2 3OP</td>
 						<td>Going to the park</td>
 						<td>-</td>
