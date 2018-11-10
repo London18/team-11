@@ -66,9 +66,9 @@
 		</div>
 		
 		<form method="post" class="col-sm-12">
-			<input type="button" name="onWay" id="onWay" value="Going" class = "btn btn-primary" onclick="doStuff(value)"/>
-			<input type="button" name="arrived" id="arrvied" value="Arrived" class = "btn btn-primary" onclick="doStuff(value)"/>
-			<input type="button" name="finished" id="finished" value="Finished" class = "btn btn-primary" onclick="doStuff(value)"/>
+			<input type="submit" name="onWay" id="onWay" value="Going" class = "btn btn-primary" onclick="doStuff(value)"/>
+			<input type="submit" name="arrived" id="arrvied" value="Arrived" class = "btn btn-primary" onclick="doStuff(value)"/>
+			<input type="submit" name="finished" id="finished" value="Finished" class = "btn btn-primary" onclick="doStuff(value)"/>
 			
 		</form>
 	
