@@ -20,8 +20,8 @@
 
 	<body>
 		<h3>Julia's House - Home page</h3>
-		<div class="col-sm 12">
-			<table class="table table-hover col-sm 10">
+		<div class="col-sm-12">
+			<table class="table table-hover col-sm-10">
 				<thead>
 					<tr>
 						<th scope="col">Name</th>
