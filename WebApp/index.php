@@ -19,6 +19,52 @@
 	</head>
 
 	<body>
+		<?php
+		$username = "root";
+		$password = "password123";
+		$host = "54.171.180.4";
+		$db = "my_db";
+		
+		$connection = my_sqli_connect($host, $username, $password, $db);
+		$queery = mysqli_query("SELECT * FROM Staff_Child_Link");
+		if (mysqli_connect_error()){ 
+			echo "Failed to connect to MySQL: " . mysqli_connect_error();
+		} else { ?>
+			<table class="table table-hover">
+				<thead>
+					<tr>
+						<th scope="col">Name</th>
+						<th scope="col">Start Time</th>
+						<th scope="col">End Time</th>
+						<th scope="col">Location</th>
+						<th scope="col">Notes</th>
+						<th scope="col">Status</th>
+					</tr>
+				</thead>
+				<?php
+				while ($row = mysqli_fetch_array($queery)) {
+					echo("<tr>");
+					echo("<td>".$row[FK_StaffID]."</td>";
+				} ?>
+			</table> <?php
+					
+			
+		
+		
+		
+		
+		
+			mysqli_close($connection);
+		}
+				
+				
+		
+		
+		
+		
+		
+		?>
+		
 		<h3>Julia's House - Home page</h3>
 		
 		
