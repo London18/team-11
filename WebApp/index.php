@@ -29,6 +29,7 @@
 					<th scope="col">End Time</th>
 					<th scope="col">Location</th>
 					<th scope="col">Notes</th>
+					<th scope="col">Status</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -38,6 +39,7 @@
 					<td>10am</td>
 					<td>53 Bank Lane, PO2 3OP</td>
 					<td>Going to the park</td>
+					<td>-</td>
 				</tr>
 				<tr>
 					<td>Jeek</td>
@@ -45,6 +47,7 @@
 					<td>1pm</td>
 					<td>43 Lane Street, DY6 9ED</td>
 					<td>Give medication @ 12pm</td>
+					<td>-</td>
 				</tr>
 				<tr>
 					<td>Chris</td>
@@ -52,6 +55,7 @@
 					<td>6pm</td>
 					<td>295 Street Avenue, LE2 0PE</td>
 					<td>N/A</td>
+					<td>-</td>
 				</tr>
 			</tbody>
 		</table>
@@ -61,6 +65,7 @@
 			<input type="submit" name="onWay" id="onWay" value="On my way"/>
 			<input type="submit" name="arrived" id="arrvied" value="Arrived"/>
 			<input type="submit" name="finished" id="finished" value="Finished"/>
+			<input type="submit" name="submit" id="submit" value="Submit" style="float:right;"/>
 		</form>
 	
 		<?php 
@@ -76,14 +81,18 @@
 			echo("Finished");
 		}
 		
+		function submit() {
+			echo("Changes saved (not)");
+		}
+		
 		if (array_key_exists("onWay", $_POST)) {
 			sit_onWay();
-		
 		} else if (array_key_exists("arrived", $_POST)) {
 			sit_arrived();
-
 		} else if (array_key_exists("finished", $_POST)) {
 			sit_finished();
+		} else if (array_key_exists("submit", $_POST)) {
+			submit();
 		}
 		?>
 		
