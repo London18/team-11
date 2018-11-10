@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, user-scalable=no">
 		<title>Julia's House - Login</title>
 		
-		<img src = "julia'sHouse_Icon.jpg" class="home-btn">
+		<img src = "julia'shouse_icon.jpg" class="home-btn">
 	</head>
 
 	<body>	
