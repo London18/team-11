@@ -19,17 +19,7 @@
 		
 	</head>
 
-	<body>
-		<?php if (isset($_COOKIE['authenticated'])) {
-				if ($_COOKIE['authenticated'] == "6RgEzmVsVuetll0roQ0w") { ?>
-					<a href="/logout.php"><h5 align="right">Logout (username)</h5></a> <?php
-				} else { ?>
-					<a href="/login.php"><h5 align="right">Login</h5> </a> <?php
-				} 
-			}
-		} ?>
-		
-		
+	<body>		
 		<a href="/index.php">
 			<img src = "juliashouse_icon.jpg" class="home-btn" href="index.php">
 		</a>
