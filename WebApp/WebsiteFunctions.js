@@ -1,6 +1,4 @@
 function doStuff(status){
-	
-	alert("hello");
 	var bln = false;
 	var table = document.getElementById("tbl");
 	for (var i = 1, row; row = table.rows[i]; i++){
