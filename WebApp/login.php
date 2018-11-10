@@ -13,7 +13,7 @@
 	<body>	
 		<div align="center">
 			<img src="julia'sHouseIcon2.jpg">
-			<select name="Staff Type" size= "2">
+			<select name="Staff Type">
 				<option value="Admin">
 				<option value="Carer">
 			</select>
