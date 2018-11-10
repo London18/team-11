@@ -5,6 +5,8 @@
 		<link rel="stylesheet" href="/styles/login.css">
 		<meta name="viewport" content="width=device-width, user-scalable=no">
 		<title>Julia's House - Login</title>
+		
+		<img src = "favicon.ico" class="home-btn">
 	</head>
 
 	<body>	
