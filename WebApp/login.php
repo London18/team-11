@@ -8,7 +8,7 @@
 
 	<body>	
 		<div class="center">
-		<img src="Julia'sHouseIcon2.jpg">
+		<img src="julia'sHouseIcon2.jpg">
 			<form method="post">
 				Staff ID: <input type="text" name="staffid" placeholder="Staff ID" class="btn btn-secondary"> <br>
 				Password: <input type="password" name="password" placeholder="Password"> <br>
