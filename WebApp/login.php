@@ -7,12 +7,12 @@
 	</head>
 
 	<body>	
-		<div class="center">
+		<div align="center">
 		<img src="julia'sHouseIcon2.jpg">
 		
 		<table class="table table-hover">
 			<form method="post">
-				Staff ID: <input type="text" name="staffid      " placeholder="Staff ID"> <br>
+				Staff ID: <input type="text" name="staffid" placeholder="Staff ID"> <br>
 				Password: <input type="password" name="password" placeholder="Password"> <br>
 				<input type="submit">
 			</form>
