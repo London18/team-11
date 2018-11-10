@@ -14,8 +14,8 @@
 		<div align="center">
 			<img src="julia'sHouseIcon2.jpg">
 			<select name="Staff Type">
-				<option value="Admin">
-				<option value="Carer">
+				<option value="Admin">Admin</option>
+				<option value="Carer">Carer</option>
 			</select>
 			<form method="post">
 				Staff ID: <input type="text" name="staffid" placeholder="Staff ID" class="mb-2 ml-3">
