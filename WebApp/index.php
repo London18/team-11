@@ -25,8 +25,8 @@
 			<thead>
 				<tr>
 					<th scope="col">Name</th>
-					<th scope="col">Start Time</th>
-					<th scope="col">End Time</th>
+					<th scope="col">Start</th>
+					<th scope="col">End</th>
 					<th scope="col">Location</th>
 					<th scope="col">Notes</th>
 					<th scope="col">Status</th>
