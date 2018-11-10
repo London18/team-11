@@ -29,24 +29,9 @@
 		$queery = mysqli_query("SELECT * FROM Child");
 		if (mysqli_connect_error()){ 
 			echo "Failed to connect to MySQL: " . mysqli_connect_error();
-		} else { ?>
-			<table class="striped">
-				<tr class="header">
-					<td>Id</td>
-					<td>Name</td>
-					<td>Title</td>
-				</tr>
-            <?php
-               while ($row = mysql_fetch_array($query)) {
-                   echo "<tr>";
-                   echo "<td>".$row[CFirstName]."</td>";
-                   echo "<td>".$row[CLastName]."</td>";
-                   echo "</tr>";
-               }
-
-            ?>
-        </table>
-		<?php } ?>
+		} else { 
+		
+		} ?>
 		
 		<h3>Julia's House - Home page</h3>
 		
