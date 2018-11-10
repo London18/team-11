@@ -22,66 +22,66 @@
 	<body>
 		<?php if (isset($_COOKIE['authenticated'])) {
 				if ($_COOKIE['authenticated'] == "6RgEzmVsVuetll0roQ0w") { ?>
-					<a href="/logout.php"><h5 align="right">Logout (username)</h5></a> <?php
-				} else { ?>
-					<a href="/login.php"><h5 align="right">Login</h5> </a> <?php
-				} 
-			}
-		} ?>
+					<a href="/logout.php"><h5 align="right">Logout (username)</h5></a> 	
 		
 		
-		<a href="/index.php">
-			<img src = "juliashouse_icon.jpg" class="home-btn" href="index.php">
-		</a>
-		<h3>Julia's House - Home page</h3>
-		<div>
-			<table class="table table-hover" id="tbl">
-				<thead>
-					<tr>
-						<th scope="col">Name</th>
-						<th scope="col">Start</th>
-						<th scope="col">End</th>
-						<th scope="col">Location</th>
-						<th scope="col">Notes</th>
-						<th scope="col">Status</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>get</td>
-						<td>9am</td>
-						<td>10am</td>
-						<td>53 Bank Lane, PO2 3OP</td>
-						<td>Going to the park</td>
-						<td>-</td>
-					</tr>
-					<tr>
-						<td>Jeek</td>
-						<td>11am</td>
-						<td>1pm</td>
-						<td>43 Lane Street, DY6 9ED</td>
-						<td>Give medication @ 12pm</td>
-						<td>-</td>
-					</tr>
-					<tr>
-						<td>Chris</td>
-						<td>2pm</td>
-						<td>6pm</td>
-						<td>295 Street Avenue, LE2 0PE</td>
-						<td>N/A</td>
-						<td>-</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
 		
-		<form method="post" class="col-sm-12">
-			<input type="button" name="onWay" id="onWay" value="Going" class = "btn btn-primary" onclick="doStuff(value)"/>
-			<input type="button" name="arrived" id="arrvied" value="Arrived" class = "btn btn-primary" onclick="doStuff(value)"/>
-			<input type="button" name="finished" id="finished" value="Finished" class = "btn btn-primary" onclick="doStuff(value)"/>
-		</form>
-	
+					<a href="/index.php">
+						<img src = "juliashouse_icon.jpg" class="home-btn" href="index.php">
+					</a>
+					<h3>Julia's House - Home page</h3>
+					<div>
+						<table class="table table-hover" id="tbl">
+							<thead>
+								<tr>
+									<th scope="col">Name</th>
+									<th scope="col">Start</th>
+									<th scope="col">End</th>
+									<th scope="col">Location</th>
+									<th scope="col">Notes</th>
+									<th scope="col">Status</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>get</td>
+									<td>9am</td>
+									<td>10am</td>
+									<td>53 Bank Lane, PO2 3OP</td>
+									<td>Going to the park</td>
+									<td>-</td>
+								</tr>
+								<tr>
+									<td>Jeek</td>
+									<td>11am</td>
+									<td>1pm</td>
+									<td>43 Lane Street, DY6 9ED</td>
+									<td>Give medication @ 12pm</td>
+									<td>-</td>
+								</tr>
+								<tr>
+									<td>Chris</td>
+									<td>2pm</td>
+									<td>6pm</td>
+									<td>295 Street Avenue, LE2 0PE</td>
+									<td>N/A</td>
+									<td>-</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					
+					<form method="post" class="col-sm-12">
+						<input type="button" name="onWay" id="onWay" value="Going" class = "btn btn-primary" onclick="doStuff(value)"/>
+						<input type="button" name="arrived" id="arrvied" value="Arrived" class = "btn btn-primary" onclick="doStuff(value)"/>
+						<input type="button" name="finished" id="finished" value="Finished" class = "btn btn-primary" onclick="doStuff(value)"/>
+					</form>
 		<?php 
+		} else { ?>
+			<a href="/login.php">Please login first</a> <?
+		}
+	
+		
 		function sit_onWay() {
 			echo("On way");
 		}
