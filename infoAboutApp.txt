@@ -1,0 +1,16 @@
+Use Julia's House Logo for the webapp as well.
+
+The logoIn in the page is based on their ID and password, got after they signed in. This step
+is due to security reasons, as we know how much Julia's House values their coustemers sensible
+information.
+
+We have only one page due to ease of use and straightforwardness, less time spent on the app.
+The Timetable is divided in chunks of bright blue for each day. Go button is for stating they are
+leaving the current location. Arrived is for telling they got to the destionation. Finish signals
+the fact they finished that sit. Pressing that button the Timetable will update itself, leaving
+only the timeslots that will follow.
+
+The Carer will hit the "Go to safe place" when leaving for home or any other place that does not
+involve work. A cute message will pop up after hitting that button, to make them mind their trip.
+
+After 2h if they haven't pressed Arrived at safe place a pop up will appear and ask them if they arrived.
