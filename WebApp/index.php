@@ -16,6 +16,7 @@
 			} else { ?>
 				<a href="/login.php"><h5 align="right">Login</h5> </a> <?php
 			} ?>		
+			
 	</head>
 
 	<body>
