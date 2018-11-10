@@ -18,7 +18,8 @@
 			<?php 
 			if (isset($_POST["staffid"])) { 
 				if ($_POST["staffid"] == "test" && $_POST["password"] == "123") {
-					setcookie("authenticated", "6RgEzmVsVuetll0roQ0w", (time()+3600));				
+					setcookie("authenticated", "6RgEzmVsVuetll0roQ0w", (time()+3600));	
+					Header("Location: /");
 				} else { ?>
 					<p class="text-danger">Invalid login, please try again.</p>
 				<?php } 	
