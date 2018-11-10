@@ -23,9 +23,9 @@
 		<a href="/index.php">
 			<img src = "juliashouse_icon.jpg" class="home-btn" href="index.php">
 		</a>
-		<h3>Julia's House - Home page</h3>
+		<h3>Julia's House - Home Page</h3>
 		<div>
-			<table class="table table-hover">
+			<table class="table table-hover" id="tbl">
 				<thead>
 					<tr>
 						<th scope="col">Name</th>
@@ -67,9 +67,8 @@
 		
 		<form method="post" class="col-sm-12">
 			<input type="button" name="onWay" id="onWay" value="Going" class = "btn btn-primary" onclick="doStuff(value)"/>
-			<input type="submit" name="arrived" id="arrvied" value="Arrived" class = "btn btn-primary" onclick="doStuff(value)"/>
-			<input type="submit" name="finished" id="finished" value="Finished" class = "btn btn-primary" onclick="doStuff(value)"/>
-			<!–- <input type="submit" name="submit" id="submit" value="Submit" class = "btn btn-primary float-right"/> !-->
+			<input type="button" name="arrived" id="arrvied" value="Arrived" class = "btn btn-primary" onclick="doStuff(value)"/>
+			<input type="button" name="finished" id="finished" value="Finished" class = "btn btn-primary" onclick="doStuff(value)"/>
 		</form>
 	
 		<?php 

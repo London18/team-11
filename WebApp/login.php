@@ -14,7 +14,7 @@
 		<div align="center">
 			<img src="julia'sHouseIcon2.jpg">
 			<br>
-			<select id="staffType" name="staffType">
+			<select name="Staff Type">
 				<option value="Admin">Admin</option>
 				<option value="Carer">Carer</option>
 			</select>
@@ -27,26 +27,14 @@
 			</form>
 			
 			<?php 
-			if($_POST['submit'] && $_POST['submit']!=0)
-			{
-				$staffType=$_POST['staffType']
-			
-				if (isset($_POST["staffid"])) { 
-					if ($_POST["staffid"] == "test" && $_POST["password"] == "123") {
-						setcookie("authenticated", "6RgEzmVsVuetll0roQ0w", (time()+3600));
-						if($staffType=="Admin")
-						{
-							Header("Location: /indexManager.php");
-						}else{
-							Header("Location: /");
-						}
-					} else 
-					{ ?>
-						<p class="text-danger">Invalid login, please try again.</p>
+			if (isset($_POST["staffid"])) { 
+				if ($_POST["staffid"] == "test" && $_POST["password"] == "123") {
+					setcookie("authenticated", "6RgEzmVsVuetll0roQ0w", (time()+3600));	
+					Header("Location: /");
+				} else { ?>
+					<p class="text-danger">Invalid login, please try again.</p>
 				<?php } 	
-				}	
 			}
-			
 		?>
 		</div>
 			
