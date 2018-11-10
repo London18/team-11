@@ -53,14 +53,14 @@
 						do {
 							$i=0;
 							if ($result = mysqli_store_result($connection)) {
-								
+								echo("<tr>");
 								while($row = mysqli_fetch_row($result)) {
-									echo("<tr>");
+									
 									echo("<td>".$row[$i]."</td>");
 									$i = $i+1;
-									echo("</tr>");
+									
 								}
-								
+								echo("</tr>");
 								mysqli_free_result($result);
 							}
 						}
