@@ -62,7 +62,7 @@
 		
 		
 		<form method="post">
-			<input type="submit" name="onWay" id="onWay" value="On my way" class = "btn btn-primary"/>
+			<input type="submit" name="onWay" id="onWay" value="Going" class = "btn btn-primary"/>
 			<input type="submit" name="arrived" id="arrvied" value="Arrived" class = "btn btn-primary"/>
 			<input type="submit" name="finished" id="finished" value="Finished" class = "btn btn-primary"/>
 			<input type="submit" name="submit" id="submit" value="Submit" style = "float: right" class = "btn btn-primary"/>
