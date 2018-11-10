@@ -16,12 +16,13 @@
 			} else { ?>
 				<a href="/login.php"><h5 align="right">Login</h5> </a> <?php
 			} ?>		
-		<a href="/index.php">
-			<img src = "juliashouse_icon.jpg" class="home-btn" href="index.php">
-		</a>
+		
 	</head>
 
 	<body>
+		<a href="/index.php">
+			<img src = "juliashouse_icon.jpg" class="home-btn" href="index.php">
+		</a>
 		<h3>Julia's House - Home page</h3>
 		<div>
 			<table class="table table-hover">
