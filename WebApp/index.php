@@ -20,7 +20,6 @@
 	</head>
 
 	<body>
-		<img src = "Julia'sHouseIcon" class="home-btn">
 		<?php
 		$username = "root";
 		$password = "password123";
@@ -37,7 +36,7 @@
 		
 		<h3>Julia's House - Home page</h3>
 		
-		
+		<img src = "Julia'sHouseIcon" class="home-btn">
 		<table class="table table-hover">
 			<thead>
 				<tr>
