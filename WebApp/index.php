@@ -7,7 +7,6 @@
 		<title>Julia's House - Home page</title>
 		
 		
-		
 		<?php if (!isset($_COOKIE['authenticated'])) {
 				setcookie("authenticated", "no", (time()+3600));
 			}
@@ -20,6 +19,7 @@
 	</head>
 
 	<body>
+<<<<<<< HEAD
 		<?php
 		$username = "root";
 		$password = "password123";
@@ -36,6 +36,8 @@
 		
 		<img src = "Julia'sHouseIcon.jpg" class="home-btn">
 		
+=======
+>>>>>>> 7953ddc1133417cbeca34035638628fbbe8d9c71
 		<h3>Julia's House - Home page</h3>
 		
 		<table class="table table-hover">
