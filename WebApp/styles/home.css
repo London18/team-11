@@ -4,5 +4,16 @@
  * Alt = #ED145B
  */
 body {
-	background-color:red;
+	color: #1D3371;
+	background-color:white;
+	padding: 3%;
+}
+.inline{
+	display: inline;
+}
+
+.home-btn{
+	width: 50px;
+	height: 60px;
+	float: left;
 }

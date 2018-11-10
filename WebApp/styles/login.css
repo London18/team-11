@@ -3,4 +3,17 @@
  * Secondary = #0087CC
  * Alt = #ED145B
  */
- 
+body {
+	color: #1D3371;
+	background-color:white;
+}
+
+form {
+	padding: 10px;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+img {
+	margin-top:5%;
+}

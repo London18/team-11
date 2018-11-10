@@ -2,17 +2,21 @@
 <html lang="en">
 	<head>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="/styles/login.css">
+		<meta name="viewport" content="width=device-width, user-scalable=no">
 		<title>Julia's House - Login</title>
 	</head>
 
 	<body>	
-		<div class="center">
-			<h3>Julia's House - Login</h3>
+		<div align="center">
+		<img src="julia'sHouseIcon2.jpg">
+		
 			<form method="post">
-				Staff ID: <input type="text" name="staffid" placeholder="Staff ID"> <br>
-				Password: <input type="password" name="password" placeholder="Password"> <br>
-				<input type="submit">
+				Staff ID: <input type="text" name="staffid" placeholder="Staff ID" class="mb-2 ml-3">
+				</br>
+				Password: <input type="password" name="password" placeholder="Password" class="mb-2">
+				</br>
+				<input type="submit" class="btn btn-primary">
 			</form>
 			
 			<?php 
