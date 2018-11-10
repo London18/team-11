@@ -8,18 +8,18 @@ CREATE TABLE Staff_Child_Link(StaffID INT FOREIGN KEY REFERENCES Staff(StaffID),
 
 CREATE TABLE Staff_Sit_Link(StaffID INT FOREIGN KEY REFERENCES Staff(StaffID), SitID INT FOREIGN KEY REFERENCES Sit(SitID));
 
-INSERT INTO Child(1, "John", "Smith", "221B Baker Street, marylebone, London, NW1 6XE", "JohnSmith1@gmail.com", "07123456789");
+INSERT INTO Child VALUES(1, "John", "Smith", "221B Baker Street, marylebone, London, NW1 6XE", "JohnSmith1@gmail.com", "07123456789");
 
-INSERT INTO Staff(1, "Bob", "Dylan", "07234567891", "07345678912", "BobDylan1@gmail.com", "Westminster, London, SW1A 0AA");
+INSERT INTO Staff VALUES(1, "Bob", "Dylan", "07234567891", "07345678912", "BobDylan1@gmail.com", "Westminster, London, SW1A 0AA");
 
-INSERT INTO Staff(2, "Martyn", "Little", "07456789123", "07567891234", "MartynLittle2@gmail.com", "Westminster, London, SW1A 0AA");
+INSERT INTO Staff VALUES(2, "Martyn", "Little", "07456789123", "07567891234", "MartynLittle2@gmail.com", "Westminster, London, SW1A 0AA");
 
-INSERT INTO Sit(1, "12:30", "13:30", "09/02/1999", "09/02/1999", 1);
+INSERT INTO Sit VALUES(1, "12:30", "13:30", "09/02/1999", "09/02/1999", 1);
 
-INSERT INTO Staff_Child_Link(1, 1);
+INSERT INTO Staff_Child_Link VALUES(1, 1);
 
-INSERT INTO Staff_Child_Link(2, 1);
+INSERT INTO Staff_Child_Link VALUES(2, 1);
 
-INSERT INTO Staff_Sit_Link(1, 1);
+INSERT INTO Staff_Sit_Link VALUES(1, 1);
 
-INSERT INTO Staff_Sit_Link(2, 1);
+INSERT INTO Staff_Sit_Link VALUES(2, 1);
