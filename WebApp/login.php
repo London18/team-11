@@ -10,7 +10,7 @@
 		<div class="center">
 		<img src="julia'sHouseIcon2.jpg">
 			<form method="post">
-				Staff ID: <input type="text" name="staffid" placeholder="Staff ID" class="btn btn-secondary"> <br>
+				Staff ID: <input type="text" name="staffid" placeholder="Staff ID"> <br>
 				Password: <input type="password" name="password" placeholder="Password"> <br>
 				<input type="submit">
 			</form>
