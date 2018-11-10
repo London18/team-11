@@ -9,4 +9,5 @@ function doStuff(status){
 				bln = true;
 		
 		}
+	}
 }
