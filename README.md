@@ -3,4 +3,4 @@
 
 What we aimed with this project was to help Julia's House to keep track of their staff state. Also, we are helping the staff to keep track of their timetable each day.
 
-Prototype:https://xd.adobe.com/view/6e6eb70e-e4e9-4979-6b15-d2b7e2ca9ff7-185f/
+Prototype: https://xd.adobe.com/view/6e6eb70e-e4e9-4979-6b15-d2b7e2ca9ff7-185f/
