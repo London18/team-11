@@ -70,7 +70,7 @@
 			<input type="submit" name="arrived" id="arrvied" value="Arrived" class = "btn btn-primary" onclick="doStuff(value)"/>
 			<input type="submit" name="finished" id="finished" value="Finished" class = "btn btn-primary" onclick="doStuff(value)"/>
 			<!–- <input type="submit" name="submit" id="submit" value="Submit" class = "btn btn-primary float-right"/> -->
-		</form>
+ 		</form>
 	
 		<?php 
 		function sit_onWay() {
@@ -85,9 +85,9 @@
 			echo("Finished");
 		}
 		
-		function submit() {
-			echo("Changes saved (not)");
-		}
+		//function submit() {
+			//echo("Changes saved (not)");
+		//}
 		
 		if (array_key_exists("onWay", $_POST)) {
 			sit_onWay();
@@ -95,9 +95,9 @@
 			sit_arrived();
 		} else if (array_key_exists("finished", $_POST)) {
 			sit_finished();
-		} else if (array_key_exists("submit", $_POST)) {
-			submit();
-		}
+		} //else if (array_key_exists("submit", $_POST)) {
+			//submit();
+		//}
 		?>
 		
 	
