@@ -7,3 +7,12 @@ body {
 	color: #1D3371;
 	background-color:white;
 }
+
+form
+{
+	padding: 10px;
+}
+
+p{
+	margin-left:10%;
+}
