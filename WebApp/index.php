@@ -58,11 +58,41 @@
 		
 		
 		<form method="post">
-			<input type="submit" name="OMW" id="omw" value="On my way"/>
-			<input type="submit" name="Arrived" id="arrvied" value="Arrived"/>
-			<input type="submit" name="Finished" id="finished" value="Finished"/>
-			
+			<input type="submit" name="onWay" id="onWay" value="On my way"/>
+			<input type="submit" name="arrived" id="arrvied" value="Arrived"/>
+			<input type="submit" name="finished" id="finished" value="Finished"/>
 		</form>
+	
+		<?php 
+		function sit_onWay() {
+			echo("On way");
+		}
+		
+		function sit_arrived() {
+			echo("Arrived");
+		}
+		
+		function sit_finished() {
+			echo("Finished");
+		}
+		
+		if (array_key_exists("onWay", $_POST)) {
+			sit_onWay();
+		
+		} else if (array_key_exists("arrived", $_POST)) {
+			sit_arrived();
+
+		} else if (array_key_exists("finished", $_POST)) {
+			sit_finished();
+		}
+		?>
+		
+		
+		
+		
+		
+		
+		
 	</body>
 
 </html>
