@@ -66,9 +66,9 @@
 		</div>
 		
 		<form method="post" class="col-sm-12">
-			<input type="submit2" name="onWay" id="onWay" value="Going" class = "btn btn-primary" />
-			<input type="submit" name="arrived" id="arrvied" value="Arrived" class = "btn btn-primary"/>
-			<input type="submit" name="finished" id="finished" value="Finished" class = "btn btn-primary"/>
+			<input type="submit2" name="onWay" id="onWay" value="Going" class = "btn btn-primary" onclick="doStuff(value)"/>
+			<input type="submit" name="arrived" id="arrvied" value="Arrived" class = "btn btn-primary" onclick="doStuff(value)"/>
+			<input type="submit" name="finished" id="finished" value="Finished" class = "btn btn-primary" onclick="doStuff(value)"/>
 			<input type="submit" name="submit" id="submit" value="Submit" class = "btn btn-primary float-right"/>
 		</form>
 	
@@ -89,10 +89,6 @@
 			echo("Changes saved (not)");
 		}
 		
-		function submit2() {
-			echo(doStuff("Going"));
-		}
-		
 		if (array_key_exists("onWay", $_POST)) {
 			sit_onWay();
 		} else if (array_key_exists("arrived", $_POST)) {
@@ -104,11 +100,7 @@
 		}
 		?>
 		
-		
-		
-		
-		
-		
+	
 		<script type="text/javascript" src="WebsiteFunctions.js"></script>
 	</body>
 
