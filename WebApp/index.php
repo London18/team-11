@@ -23,7 +23,7 @@
 		<a href="/index.php">
 			<img src = "juliashouse_icon.jpg" class="home-btn" href="index.php">
 		</a>
-		<h3>Julia's House - Home page</h3>
+		<h3>Julia's House - Home Page</h3>
 		<div>
 			<table class="table table-hover" id="tbl">
 				<thead>
