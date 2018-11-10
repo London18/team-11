@@ -8,9 +8,9 @@
 
 	<body>	
 		<div class="center">
-			<h3>Julia's House - Login</h3>
+		<img src="Julia'sHouseIcon2.jpg">
 			<form method="post">
-				Staff ID: <input type="text" name="staffid" placeholder="Staff ID"> <br>
+				Staff ID: <input type="text" name="staffid" placeholder="Staff ID" class="btn btn-secondary"> <br>
 				Password: <input type="password" name="password" placeholder="Password"> <br>
 				<input type="submit">
 			</form>
