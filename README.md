@@ -11,3 +11,6 @@ Prototype: https://xd.adobe.com/view/6e6eb70e-e4e9-4979-6b15-d2b7e2ca9ff7-185f/
 More pictures:
 
 ![Cute](https://boygeniusreport.files.wordpress.com/2015/06/funny-cat.jpg?quality=98&strip=all&w=782)
+
+We do hope that as much as these cats made you "aww", this application will make the carers and nurses to feel the same "aww"
+when they see the care Julia's House gives to them.
