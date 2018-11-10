@@ -17,3 +17,11 @@ form {
 .inline{
 	display: inline;
 }
+
+.home-btn
+{
+	padding:1%;
+	float: left;
+	width: 64px;
+	height: 64px;
+}
