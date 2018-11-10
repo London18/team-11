@@ -3,7 +3,7 @@
 	<head>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Julia's House - Home page</title>
+		<title>Julia's House - Home Page</title>
 		
 		
 		<?php if (!isset($_COOKIE['authenticated'])) {
@@ -11,14 +11,14 @@
 			}
 		
 			if ($_COOKIE['authenticated'] == "6RgEzmVsVuetll0roQ0w") { ?>
-				<a href="/logout.php"><h5 align="right">Logout (username)</h5></a> <?php
+				<a href="/logout.php"><h5 align="right">Logout</h5></a> <?php
 			} else { ?>
 				<a href="/login.php"><h5 align="right">Login</h5> </a> <?php
 			} ?>		
 	</head>
 
 	<body>
-		<h3>Julia's House - Home page</h3>
+		<h3>Julia's House - Home Page</h3>
 		
 		
 		<table class="table table-hover">
