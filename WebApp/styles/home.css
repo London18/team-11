@@ -3,6 +3,10 @@
  * Secondary = #0087CC
  * Alt = #ED145B
  */
+html{
+	 color:red;
+	 font-size:100px;
+ }
 body {
 	color: #1D3371;
 	background-color:white;
@@ -22,13 +26,13 @@ form {
 	height: 60px;
 	float: left;
 }
-/*
+
 div {
 	width:95%;
 }
+
 
 .alignRight{
 	float: right;
 	align-right:5%;
 }
-*/
