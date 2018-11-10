@@ -14,7 +14,7 @@
 			}
 		
 			if ($_COOKIE['authenticated'] == "6RgEzmVsVuetll0roQ0w") { ?>
-				<a href="/logout.php"><h5 align="right">Logout (username)</h5></a>
+				<a href="/logout.php"><h5 align="right">Logout</h5></a>
 				
 	
 	

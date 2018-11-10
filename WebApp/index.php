@@ -4,7 +4,7 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 		<link rel="stylesheet" href="/styles/home.css">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
-		<title>Julia's House - TEST page</title>		
+		<title>Julia's House - Home Page</title>		
 	</head>
 
 	<body>	
@@ -13,7 +13,7 @@
 			}
 		
 			if ($_COOKIE['authenticated'] == "6RgEzmVsVuetll0roQ0w") { ?>
-				<a href="/logout.php"><h5 align="right">Logout (username)</h5></a>
+				<a href="/logout.php"><h5 align="right">Logout</h5></a>
 
 
 
