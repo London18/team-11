@@ -28,5 +28,6 @@ div {
 }
 
 .alignRight{
+	float: right;
 	align-right:5%;
 }
