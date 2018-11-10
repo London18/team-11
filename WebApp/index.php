@@ -44,7 +44,7 @@
 				<?php
 				while ($row = mysqli_fetch_array($queery)) {
 					echo("<tr>");
-					echo("<td>".$row[FK_StaffID]."</td>";
+					echo("<td>".$row[FK_StaffID]."</td>");
 				} ?>
 			</table> <?php
 					
