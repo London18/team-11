@@ -9,6 +9,14 @@ body {
 	padding: 3%;
 }
 
+h3 {
+	position:fixed;
+}
+
+form {
+	position:fixed;
+}
+
 .inline{
 	display: inline;
 }
