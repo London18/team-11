@@ -66,9 +66,9 @@
 		</div>
 		
 		<form method="post" class="col-sm-12">
-			<input type="submit" name="Add New Sit" id="add" value="add" class = "btn btn-primary"/>
-			<input type="submit" name="Edit Sit" id="edit" value="edit" class = "btn btn-primary"/>
-			<input type="submit" name="Contact Carer" id="contact" value="contact" class = "btn btn-primary"/>
+			<input type="submit" name="Add New Sit" id="add" value="Added" class = "btn btn-primary"/>
+			<input type="submit" name="Edit Sit" id="edit" value="Edited" class = "btn btn-primary"/>
+			<input type="submit" name="Contact Carer" id="contact" value="Contacted" class = "btn btn-primary"/>
 			<input type="submit" name="submit" id="submit" value="Submit" class = "btn btn-primary float-right"/>
 		</form>
 	
