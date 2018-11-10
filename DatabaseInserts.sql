@@ -19,7 +19,6 @@ INSERT INTO Staff VALUES(2, "Martyn", "French", "07456789123", "01893027816", "M
 INSERT INTO Staff VALUES(3, "James", "Little", "07756201957", "01893074916", "jameslittle@gmail.com", "23 Elm Drive, DF2 9DK");
 INSERT INTO Staff VALUES(4, "Hary", "Dangline", "07456789123", "01893033857", "harrydangline@gmail.com", "104 Drive Road, LP3 0AA");
 
- 
 INSERT INTO Sit VALUES(1, "12:00", "14:00", "16/11/2018", "16/11/2018", 1);
 INSERT INTO Sit VALUES(2, "10:00", "11:00", "16/11/2018", "16/11/2018", 2);
 INSERT INTO Sit VALUES(3, "12:30", "13:30", "16/11/2018", "16/11/2018", 3);
