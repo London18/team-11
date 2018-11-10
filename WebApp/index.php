@@ -38,7 +38,6 @@
 >>>>>>> 1ca1b0d2186bc61e8b73165de7bf908fd2a71ac2
 		<h3>Julia's House - Home page</h3>
 		
-		<img src = "Julia'sHouseIcon" class="home-btn">
 		<table class="table table-hover">
 			<thead>
 				<tr>
