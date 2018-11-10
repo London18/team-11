@@ -69,7 +69,7 @@
 			<input type="submit2" name="onWay" id="onWay" value="Going" class = "btn btn-primary" onclick="doStuff(value)"/>
 			<input type="submit" name="arrived" id="arrvied" value="Arrived" class = "btn btn-primary" onclick="doStuff(value)"/>
 			<input type="submit" name="finished" id="finished" value="Finished" class = "btn btn-primary" onclick="doStuff(value)"/>
-			//<input type="submit" name="submit" id="submit" value="Submit" class = "btn btn-primary float-right"/>
+			<!––<input type="submit" name="submit" id="submit" value="Submit" class = "btn btn-primary float-right"/>-->
 		</form>
 	
 		<?php 
