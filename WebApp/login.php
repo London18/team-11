@@ -12,9 +12,11 @@
 		<img src="julia'sHouseIcon2.jpg">
 		
 			<form method="post">
-				Staff ID: <input type="text" name="staffid" placeholder="Staff ID"> <br>
-				Password: <input type="password" name="password" placeholder="Password"> <br>
-				<input type="submit">
+				Staff ID: <input type="text" name="staffid" placeholder="Staff ID" class="mb-2 ml-3">
+				</br>
+				Password: <input type="password" name="password" placeholder="Password" class="mb-2">
+				</br>
+				<input type="submit" class="btn btn-primary">
 			</form>
 			
 			<?php 

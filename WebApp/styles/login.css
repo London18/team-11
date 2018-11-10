@@ -8,11 +8,16 @@ body {
 	background-color:white;
 }
 
-form
-{
+form {
 	padding: 10px;
+	margin-left:10%;
+	margin-right:10%;
 }
 
-p{
-	margin-left:10%;
+input {
+	padding:5px;
+}
+
+img {
+	margin-top:5%;
 }
