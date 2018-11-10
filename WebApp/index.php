@@ -3,7 +3,7 @@
 	<head>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 		<link rel="stylesheet" href="/styles/home.css">
-		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+		<meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1">
 		<title>Julia's House - Home page</title>
 		
 		
@@ -20,8 +20,8 @@
 
 	<body>
 		<h3>Julia's House - Home page</h3>
-		<div>
-			<table class="table table-hover">
+		<div class="col-sm-12">
+			<table class="table table-hover col-sm-10">
 				<thead>
 					<tr>
 						<th scope="col">Name</th>
