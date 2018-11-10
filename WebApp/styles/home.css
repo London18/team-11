@@ -26,3 +26,7 @@ form {
 div {
 	width:95%;
 }
+
+.alignRight{
+	float: right;
+}
