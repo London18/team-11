@@ -25,7 +25,7 @@
 		</a>
 		<h3>Julia's House - Home page</h3>
 		<div>
-			<table class="table table-hover">
+			<table class="table table-hover" id="tbl">
 				<thead>
 					<tr>
 						<th scope="col">Name</th>
