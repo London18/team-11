@@ -8,8 +8,12 @@ body {
 	background-color:white;
 }
 
-form
-{
+form {
 	padding: 10px;
-		margin-left:10%;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+input {
+	padding:5px;
 }
