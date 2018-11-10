@@ -9,10 +9,6 @@ body {
 	padding: 3%;
 }
 
-h3 {
-	position:fixed;
-}
-
 form {
 	position:fixed;
 }
@@ -26,7 +22,13 @@ form {
 	height: 60px;
 	float: left;
 }
-
+/*
 div {
 	width:95%;
 }
+
+.alignRight{
+	float: right;
+	align-right:5%;
+}
+*/
