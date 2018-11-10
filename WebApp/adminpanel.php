@@ -36,24 +36,30 @@
 				<tbody>
 					<tr>
 						<td>Sally Dango</td>
-						<td>Going to sit</td>
+						<td>Very Late</td>
 						<td><a href="tel:07482603961">Phone</a> or <a href="mailto:sallydango@email.net">E-Mail</a></td>
 					</tr>
 					<tr>
 						<td>Darren Harden</td>
-						<td>Absent</td>
+						<td>Late</td>
 						<td><a href="tel:07387916501">Phone</a> or <a href="mailto:darrenharden@email.biz">E-Mail</a></td>
 					</tr>
 					<tr>
 						<td>Chris Melner</td>
-						<td>At sit</td>
+						<td>Traveling</td>
 						<td><a href="tel:07092884514">Phone</a> or <a href="mailto:chrismelner@email.xyz">E-Mail</a></td>
 					</tr>
 					<tr>
 						<td>Ganis James</td>
-						<td>Should have arrived home</td>
+						<td>At Sit</td>
 						<td><a href="tel:07714581769">Phone</a> or <a href="mailto:ganisjames@email.net">E-Mail</a></td>
 					</tr>
+					<tr>
+						<td>Jimmy Johnson</td>
+						<td>Home</td>
+						<td><a href="tel:07514862516">Phone</a> or <a href="mailto:jimmyjohnson@email.net">E-Mail</a></td>
+					</tr>
+
 				</tbody>
 			</table>
 		</div>
