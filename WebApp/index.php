@@ -34,6 +34,8 @@
 		
 		} ?>
 		
+		<img src = "Julia'sHouseIcon.jpg" class="home-btn">
+		
 		<h3>Julia's House - Home page</h3>
 		
 		<table class="table table-hover">
