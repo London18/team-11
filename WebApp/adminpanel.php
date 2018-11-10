@@ -51,7 +51,7 @@
 					</tr>
 					<tr>
 						<td>Ganis James</td>
-						<td>At Sit</td>
+						<td>Working</td>
 						<td><a href="tel:07714581769">Phone</a> or <a href="mailto:ganisjames@email.net">E-Mail</a></td>
 					</tr>
 					<tr>
