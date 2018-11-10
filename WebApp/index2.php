@@ -7,8 +7,7 @@
 		<title>Julia's House - Home page</title>
 		
 		
-		<?php if (!isset($_
-COOKIE['authenticated'])) {
+		<?php if (!isset($_COOKIE['authenticated'])) {
 				setcookie("authenticated", "no", (time()+3600));
 			}
 		
@@ -23,17 +22,15 @@ COOKIE['authenticated'])) {
 		<h3>Julia's House - Home page</h3>
 		
 		<?php
-		$username = getenv('MYSQL_USER');
-		$password = getenv('MYSQL_PASS');
-		$host = getenv('MYSQL_HOST');
+		$username = "root";
+		$password = "password123";
+		$host = "localhost";
 		$db = "my_db";
 		
 		$connection = mysqli_connect($host, $username, $password, $db);
 
-		$select = "SELECT CFirstName FROM Child";
+		$select = "SELECT CFirstName FROM Child;";
 		$select .= "SELECT StartTime from Sit";
-		//$select ..= "SELECT EndTime from Sit";
-		//$select ...= "SELECT CAddress from Child";
 		?>
 		
 		<table class="table table-hover">
@@ -53,20 +50,11 @@ COOKIE['authenticated'])) {
 					if (mysqli_multi_query($connection, $select)) {
 						do {
 							if ($result = mysqli_store_result($connection)) {
-								echo("<tr>");
-								$i=0;
 								while($row = mysqli_fetch_row($result)) {
-									
+									echo("<tr>");
 									echo("<td>".$row[0]."</td>");
-									$i=$i+1;
+									echo("</tr>");
 								}
-								$i=0;
-								while($row = mysqli_fetch_row($result)) {
-									
-									echo("<td>".$row[0]."</td>");
-									$i=$i+1;
-								}
-								echo("</tr>");
 								mysqli_free_result($result);
 							}
 						}
