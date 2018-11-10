@@ -28,25 +28,12 @@
 		$db = "my_db";
 		
 		$connection = mysqli_connect($host, $username, $password, $db);
-	
-		
-		
-		
-		$select = "SELECT CFirstName FROM Child;";
+
+		$select = "SELECT CFirstName FROM Child";
 		$select .= "SELECT StartTime from Sit";
+		//$select ..= "SELECT EndTime from Sit";
+		//$select ...= "SELECT CAddress from Child";
 		?>
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 		<table class="table table-hover">
 			<thead>
@@ -60,24 +47,26 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr>			
+							
 					<?php 
 					if (mysqli_multi_query($connection, $select)) {
 						do {
+							$i=0;
 							if ($result = mysqli_store_result($connection)) {
+								echo("<tr>");
 								while($row = mysqli_fetch_row($result)) {
 									
 									echo("<td>".$row[0]."</td>");
-									echo("<td>".$row[1]."</td>");
-									echo "<td>" . $row['CFirstName'] . "</td>"; // Add row to table
-									echo "<td>" . $row['CAddress'] . "</td>";
+									$i = $i+1;
+									
 								}
+								echo("</tr>");
 								mysqli_free_result($result);
 							}
 						}
 						while(mysqli_next_result($connection));
 					} ?>
-				</tr>
+			
 			</tbody>
 		</table>
 		
