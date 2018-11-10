@@ -13,6 +13,7 @@
 	<body>	
 		<div align="center">
 			<img src="julia'sHouseIcon2.jpg">
+			<br>
 			<select name="Staff Type">
 				<option value="Admin">Admin</option>
 				<option value="Carer">Carer</option>
