@@ -56,7 +56,7 @@
 								echo("<tr>");
 								while($row = mysqli_fetch_row($result)) {
 									
-									echo("<td>".$row[$i]."</td>");
+									echo("<td>".$row[0]."</td>");
 									$i = $i+1;
 									
 								}
