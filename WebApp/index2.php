@@ -66,7 +66,9 @@
 						do {
 							if ($result = mysqli_store_result($connection)) {
 								while($row = mysqli_fetch_row($result)) {
+									
 									echo("<td>".$row[0]."</td>");
+									echo("<td>".$row[1]."</td>");
 									echo "<td>" . $row['CFirstName'] . "</td>"; // Add row to table
 									echo "<td>" . $row['CAddress'] . "</td>";
 								}
