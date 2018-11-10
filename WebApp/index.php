@@ -62,11 +62,11 @@
 			</table>
 		</div>
 		
-		<form method="post">
+		<form method="post" style="col-sm-12">
 			<input type="submit" name="onWay" id="onWay" value="Going" class = "btn btn-primary"/>
 			<input type="submit" name="arrived" id="arrvied" value="Arrived" class = "btn btn-primary"/>
 			<input type="submit" name="finished" id="finished" value="Finished" class = "btn btn-primary"/>
-			<input type="submit" name="submit" id="submit" value="Submit" class = "btn btn-primary float-right"/>
+			<input type="submit" name="submit" id="submit" value="Submit" class = "btn btn-primary col-sm-offset-10"/>
 		</form>
 	
 		<?php 
