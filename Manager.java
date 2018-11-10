@@ -46,10 +46,7 @@ public class Manager {
 
     }
 
-    public void populateCarers(){
-            DatabaseSimulation dbFunctions = new DatabaseSimulation();
-            dbFunctions.createManager();
-    }
+
 
     public void changeStatus()
     {
