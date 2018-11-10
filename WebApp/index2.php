@@ -51,14 +51,19 @@
 					<?php 
 					if (mysqli_multi_query($connection, $select)) {
 						do {
-							$i=0;
 							if ($result = mysqli_store_result($connection)) {
 								echo("<tr>");
+								$i=0;
 								while($row = mysqli_fetch_row($result)) {
 									
 									echo("<td>".$row[0]."</td>");
-									$i = $i+1;
+									$i=$i+1;
+								}
+								$i=0;
+								while($row = mysqli_fetch_row($result)) {
 									
+									echo("<td>".$row[0]."</td>");
+									$i=$i+1;
 								}
 								echo("</tr>");
 								mysqli_free_result($result);
