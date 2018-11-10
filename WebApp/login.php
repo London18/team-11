@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, user-scalable=no">
 		<title>Julia's House - Login</title>
 		<a href="/index.php">
-			<img src = "juliashouse_icon.jpg" class="home-btn" href="/index.php">
+			<img src = "juliashouse_icon.jpg" class="home-btn" href="index.php">
 		</a>
 	</head>
 
