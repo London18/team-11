@@ -7,7 +7,8 @@
 		<title>Julia's House - Home page</title>
 		
 		
-		<?php if (!isset($_COOKIE['authenticated'])) {
+		<?php if (!isset($_
+COOKIE['authenticated'])) {
 				setcookie("authenticated", "no", (time()+3600));
 			}
 		
@@ -22,9 +23,9 @@
 		<h3>Julia's House - Home page</h3>
 		
 		<?php
-		$username = "root";
-		$password = "password123";
-		$host = "localhost";
+		$username = getenv('MYSQL_USER');
+		$password = getenv('MYSQL_PASS');
+		$host = getenv('MYSQL_HOST');
 		$db = "my_db";
 		
 		$connection = mysqli_connect($host, $username, $password, $db);
