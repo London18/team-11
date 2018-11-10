@@ -3,7 +3,7 @@
 	<head>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 		<link rel="stylesheet" href="/styles/home.css">
-		<meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
 		<title>Julia's House - Home page</title>
 		
 		
@@ -16,12 +16,13 @@
 			} else { ?>
 				<a href="/login.php"><h5 align="right">Login</h5> </a> <?php
 			} ?>		
+			
 	</head>
 
 	<body>
 		<h3>Julia's House - Home page</h3>
-		<div class="col-sm-12">
-			<table class="table table-hover col-sm-10">
+		<div>
+			<table class="table table-hover">
 				<thead>
 					<tr>
 						<th scope="col">Name</th>
@@ -65,7 +66,7 @@
 			<input type="submit" name="onWay" id="onWay" value="Going" class = "btn btn-primary"/>
 			<input type="submit" name="arrived" id="arrvied" value="Arrived" class = "btn btn-primary"/>
 			<input type="submit" name="finished" id="finished" value="Finished" class = "btn btn-primary"/>
-			<input type="submit" name="submit" id="submit" value="Submit" style = "float: right" class = "btn btn-primary"/>
+			<input type="submit" name="submit" id="submit" value="Submit" class = "btn btn-primary alignRight"/>
 		</form>
 	
 		<?php 
