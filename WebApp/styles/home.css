@@ -8,6 +8,7 @@ body {
 	background-color:white;
 	padding: 3%;
 }
+
 .inline{
 	display: inline;
 }
@@ -16,4 +17,8 @@ body {
 	width: 50px;
 	height: 60px;
 	float: left;
+}
+
+div {
+	width:95%;
 }
