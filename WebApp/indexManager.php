@@ -78,7 +78,7 @@
 		}
 		
 		function sit_edited() {
-			echo("Edited");
+			echo("Edited sit");
 		}
 		
 		function sit_contact() {

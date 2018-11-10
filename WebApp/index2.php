@@ -60,29 +60,21 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr>
-					<td>get</td>
-					<td>9am</td>
-					<td>10am</td>
-					<td>53 Bank Lane, PO2 3OP</td>
-					<td>Going to the park</td>
-					<td>-</td>
-				</tr>
-				<tr>
-					<td>Jeek</td>
-					<td>11am</td>
-					<td>1pm</td>
-					<td>43 Lane Street, DY6 9ED</td>
-					<td>Give medication @ 12pm</td>
-					<td>-</td>
-				</tr>
-				<tr>
-					<td>Chris</td>
-					<td>2pm</td>
-					<td>6pm</td>
-					<td>295 Street Avenue, LE2 0PE</td>
-					<td>N/A</td>
-					<td>-</td>
+				<tr>			
+					<?php 
+					if (mysqli_multi_query($connection, $select)) {
+						do {
+							if ($result = mysqli_store_result($connection)) {
+								while($row = mysqli_fetch_row($result)) {
+									echo("<td>".$row[0]."</td>");
+									echo "<td>" . $row['CFirstName'] . "</td>"; // Add row to table
+									echo "<td>" . $row['CAddress'] . "</td>";
+								}
+								mysqli_free_result($result);
+							}
+						}
+						while(mysqli_next_result($connection));
+					} ?>
 				</tr>
 			</tbody>
 		</table>
