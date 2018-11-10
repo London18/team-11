@@ -12,8 +12,11 @@
 
 	<body>	
 		<div align="center">
-		<img src="julia'sHouseIcon2.jpg">
-		
+			<img src="julia'sHouseIcon2.jpg">
+			<select name="Staff Type" size= "2">
+				<option value="Admin">
+				<option value="Carer">
+			</select>
 			<form method="post">
 				Staff ID: <input type="text" name="staffid" placeholder="Staff ID" class="mb-2 ml-3">
 				</br>
