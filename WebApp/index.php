@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Julia's House - Home page</title>
 		
+		<img src = "Julia'sHouseIcon" class="home-btn">
 		
 		<?php if (!isset($_COOKIE['authenticated'])) {
 				setcookie("authenticated", "no", (time()+3600));
