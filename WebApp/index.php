@@ -19,23 +19,6 @@
 	</head>
 
 	<body>
-<<<<<<< HEAD
-=======
-		<?php
-		$username = "root";
-		$password = "password123";
-		$host = "54.171.180.4";
-		$db = "my_db";
-		
-		$connection = my_sqli_connect($host, $username, $password, $db);
-		$queery = mysqli_query("SELECT * FROM Child");
-		if (mysqli_connect_error()){ 
-			echo "Failed to connect to MySQL: " . mysqli_connect_error();
-		} else { 
-		
-		} ?>
-		
->>>>>>> 1ca1b0d2186bc61e8b73165de7bf908fd2a71ac2
 		<h3>Julia's House - Home page</h3>
 		
 		<table class="table table-hover">
